@@ -1,5 +1,6 @@
 import React from 'react';
-import { ShoppingBag, Github, Globe } from 'lucide-react';
+import { ShoppingBag, Globe } from 'lucide-react';
+import GithubIcon from './GithubIcon';
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -27,7 +28,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="footer-link"
           >
-            <Github size={14} style={{ marginRight: '0.3rem', verticalAlign: '-2px' }} />
+            <GithubIcon size={14} style={{ marginRight: '0.3rem', verticalAlign: '-2px' }} />
             GitHub
           </a>
         </div>
